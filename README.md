@@ -8,7 +8,7 @@ El sistema obtiene métricas reales del equipo, como el uso de CPU, memoria RAM 
 
 Desarrollar un asistente inteligente capaz de detectar posibles problemas de rendimiento en un servidor y proporcionar diagnósticos técnicos utilizando métricas reales del sistema, recuperación de información mediante RAG e inteligencia artificial generativa.
 
-## uncionalidades
+## Funcionalidades
 
 - Monitoreo del uso de CPU.
 - Monitoreo del uso de memoria RAM.
@@ -61,7 +61,7 @@ Modelo de IA mediante Groq
 Diagnóstico y recomendaciones
 ```
 
-## ecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python:** lenguaje principal utilizado para desarrollar la aplicación.
 - **FastAPI:** framework utilizado para crear la API y comunicar los diferentes componentes del sistema.
@@ -136,7 +136,7 @@ Para ejecutar el proyecto se requiere:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/liliskzjb/AI-Tech-Doctor.git
 cd ai-tech-doctor
 ```
 
