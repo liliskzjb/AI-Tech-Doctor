@@ -1,0 +1,13 @@
+PROBLEMAS DE MEMORIA RAM EN SERVIDORES LINUX
+
+Un consumo elevado de memoria RAM puede reducir el rendimiento de un servidor y provocar el uso intensivo de memoria swap.
+
+Cuando existe presión de memoria se deben identificar los procesos que utilizan mayor cantidad de RAM y determinar si su consumo corresponde a su funcionamiento normal.
+
+Herramientas como free, top, htop y ps permiten revisar el uso de memoria del sistema y de los procesos.
+
+Las posibles causas incluyen aplicaciones que requieren grandes cantidades de memoria, demasiados procesos activos, configuración inadecuada de servicios o fugas de memoria.
+
+No se debe finalizar un proceso únicamente por presentar un consumo elevado de memoria. Primero se debe identificar su función y determinar si corresponde a un servicio importante.
+
+Se recomienda revisar los procesos con mayor consumo, comprobar el uso de swap, analizar los registros de las aplicaciones y continuar monitoreando la memoria.

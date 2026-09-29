@@ -1,0 +1,13 @@
+PROBLEMAS DE CPU EN SERVIDORES LINUX
+
+Un uso elevado y sostenido de CPU puede provocar lentitud en el servidor, aumento en los tiempos de respuesta y reducción del rendimiento de los servicios.
+
+Cuando el uso de CPU supera niveles elevados durante periodos sostenidos, se deben identificar los procesos que están consumiendo más recursos.
+
+Para investigar un problema de CPU se pueden utilizar herramientas como top, htop y ps para identificar procesos con alto consumo.
+
+Antes de finalizar un proceso se debe verificar su función y determinar si pertenece a un servicio crítico del sistema.
+
+Las posibles causas de un uso elevado de CPU incluyen procesos con alta carga de trabajo, aplicaciones mal configuradas, ciclos de ejecución excesivos, múltiples procesos ejecutándose simultáneamente o tareas de mantenimiento.
+
+Se recomienda identificar el proceso responsable, revisar sus registros, verificar si el comportamiento es esperado y continuar monitoreando el consumo después de realizar cambios.

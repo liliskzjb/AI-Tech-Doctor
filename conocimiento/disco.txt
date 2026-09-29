@@ -1,0 +1,13 @@
+PROBLEMAS DE ALMACENAMIENTO EN SERVIDORES LINUX
+
+Un porcentaje elevado de utilización del disco puede impedir que aplicaciones y servicios almacenen archivos correctamente.
+
+La falta de espacio puede afectar registros del sistema, bases de datos, actualizaciones, archivos temporales y otros servicios.
+
+Para investigar el almacenamiento se pueden utilizar herramientas como df para revisar el espacio disponible y du para identificar directorios o archivos que utilizan mayor cantidad de almacenamiento.
+
+Las posibles causas incluyen crecimiento de archivos de registro, archivos temporales acumulados, copias de seguridad antiguas, archivos innecesarios o crecimiento inesperado de datos.
+
+No se deben eliminar archivos sin identificar previamente su función.
+
+Se recomienda localizar los directorios con mayor consumo, revisar archivos de registro, eliminar únicamente información que se haya determinado que no es necesaria y continuar monitoreando el espacio disponible.

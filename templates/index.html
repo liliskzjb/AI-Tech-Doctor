@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width = device-width, inicial-scale = 1.0">
+	
+	<title>AI Tech Doctor</title>
+	<link rel = "stylesheet" href = "/static/styles.css">
+</head>
+
+<body>
+	<div class = "container">
+		<header>
+			<div>
+				<h1>AI Tech Doctor</h1>
+				<p>Diagnostico inteligente del sistema</p>
+			</div>
+
+			<div id = "estado" class = "estado normal">
+				NORMAL
+			</div>
+		</header>
+
+		<section class = "equipo">
+			<h2>Estado del servidor</h2>
+
+			<p>Equipo: <strong id = "equipo">Cargando...</strong> </p>
+
+			<p>Sistema operativo: <strong id = "sistema">Cargando...</strong> </p>
+		</section>
+
+		<section class = "metricas">
+			<div class = "tarjeta">
+				<h3>CPU</h3>
+
+				<span id = "cpu">0%</span>
+
+				<div class = "barra">
+					<div id = "barra-cpu"></div>
+				</div>
+			</div>
+
+			<div class = "tarjeta">
+				<h3>Memoria RAM</h3>
+
+				<span id = "ram">0%</span>
+
+				<div class = "barra">
+					<div id = "barra-ram"></div>
+				</div>
+			</div>
+			
+			<div class = "tarjeta">
+                                <h3>Disco</h3>
+
+                                <span id = "disco">0%</span>
+
+                                <div class = "barra">
+                                        <div id = "barra-disco"></div>
+                                </div>
+                        </div>						
+		</section>
+
+		<section class = "problemas">
+			<h2>Problemas detectados</h2>
+
+			<div id = "lista-problemas">
+				Analizando sistema...
+			</div>
+		</section>
+		
+		<section class ="problemas">
+                        <h2>Procesos con mayor consumo de CPU</h2>
+
+                        <div id = "lista-procesos">
+                                Cargando procesos...
+                        </div>
+                </section>
+
+		<section class = "ia">
+			<h2>Asistente inteligente</h2>
+			
+			<p>AI Tech analizara el problema reportado junto con llas metricas actuales del servidor para generar un diagnostico asistido por IA</p>
+
+			<div class = "campo-sintoma">
+				<label for = "sintoma">
+					Describe el problema que estas observando:
+				</label>
+
+				<textarea id = "sintoma" placeholder = "Ejemplo: El servidor está muy lento y las aplicaciones tardan en responder." rows = "4">
+				</textarea>
+			</div>
+			<button id = "btn-analizar">
+				Analizar con IA
+			</button>
+
+			<div id = "resultado-ia" class = "resultado-ia">
+				<p>Describe el problema y presiona el boton para realizar un diagnostico</p>
+			<div> 
+		</section>
+	</div>
+
+	<script src = "/static/app.js"></script>
+</body>
+
