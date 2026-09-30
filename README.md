@@ -398,6 +398,12 @@ Los diagnósticos generados por inteligencia artificial deben considerarse como 
 
 El comportamiento del sistema también puede variar dependiendo de los recursos disponibles, el sistema operativo y la configuración del entorno donde sea ejecutado.
 
+## Manual del proyecto
+
+El manual técnico contiene la descripción del sistema, arquitectura, instalación, funcionamiento y evidencias de las pruebas realizadas sobre CPU, memoria RAM y almacenamiento.
+
+[Consultar manual técnico de AI Tech Doctor](documentacion/Manual_AI_Tech_Doctor.pdf)
+
 ## Autor
 
 Proyecto desarrollado como parte de un curso de Inteligencia Artificial.
